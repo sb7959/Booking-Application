@@ -1,0 +1,80 @@
+.list-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.list-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+
+.list-search {
+  flex: 1;
+  background-color: yellow;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.list-title {
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.list-item > label {
+  font-size: 12px;
+}
+
+.list-item > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+.list-item > span {
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-option-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.list-option-input {
+  width: 50px;
+}
+
+.list-search > button {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.list-result {
+  flex: 3;
+}
